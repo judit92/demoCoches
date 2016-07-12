@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - @localhost" uuid="52646f63-1506-4f8b-9a3a-9456f45211e2">
+    <database-info product="MySQL" version="5.6.16" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="coches"/>
+      <table id="2" parent="1" name="coche"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="4" parent="2" name="año">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="marca">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="6" parent="2" name="matricula">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="7" parent="2" name="modelo">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="8" parent="2" name="precio">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="MySQL - @localhost [2]" uuid="91485edd-7deb-40e8-890a-613738ae980f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="coches"/>
+      <table id="2" parent="1" name="coche"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="4" parent="2" name="año">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="marca">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="6" parent="2" name="matricula">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="7" parent="2" name="modelo">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="8" parent="2" name="precio">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
